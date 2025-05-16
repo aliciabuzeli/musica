@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --cor-fundo: #09090B;
+    --cor-fundo-secundario: #18181B;
+    --cor-branco: #fff;
+    --cor-preto: #000;
+    --cor--texto: #A1A1AA;
+    --cor-destaque: #F7B733;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 25px 0px;
+}
+
+header nav a {
+    color: var(--cor--texto);
+    margin: 0px 10px;
+}
+
+header nav a:hover {
+    color: var(--cor-branco);
+}
+
+.btn {
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: 1px solid var(--cor-branco);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+}
+
+.btn-primary:hover {
+    color: var(--cor-branco) !important;
+    background-color: transparent !important;
+}
+
+.btn-outline {
+    color: var(--cor-branco);
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    color: var(--cor-preto) !important;
+    background-color: var(--cor-branco) !important;
+}
+
+.column {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.title {
+    font-size: 5em;
+    color: var(--cor-branco);
+}
+
+.subtitle {
+    font-size: 2.5em;
+    color: var(--cor--texto);
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.bg-img {
+    height: 80vh;
+    padding-top: 100px;
+    background-image: url(../img/sol.png);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cor-amarelo {
+    color: var(--cor-destaque);
+    font-size: 0.9em;
+}
+
+h2 {
+    color: var(--cor-branco);
+    font-size: 2.5em;
+}
+
+.texto {
+    color: var(--cor--texto);
+}
+
+.bg2 {
+    background-color: var(--cor-fundo-secundario);
+}
+
+.center {
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+    color: var(--cor--texto);
+}
